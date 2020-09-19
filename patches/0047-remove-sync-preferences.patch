@@ -281,35 +281,6 @@ index 84ccfac4a2c9..c4c27fca9d26 100644
  
      /**
       * If password leak detection is off and cannot be toggled while safe browsing is disabled, so
-diff --git a/chrome/browser/ui/android/strings/android_chrome_strings.grd b/chrome/browser/ui/android/strings/android_chrome_strings.grd
-index d7c19fa3cbb1..b511b201417a 100644
---- a/chrome/browser/ui/android/strings/android_chrome_strings.grd
-+++ b/chrome/browser/ui/android/strings/android_chrome_strings.grd
-@@ -295,15 +295,15 @@ CHAR-LIMIT guidelines:
-       <message name="IDS_SIGN_OUT_AND_TURN_OFF_SYNC" desc="The text for a preferences row that for signs out the user and turns off sync.">
-         Sign out and turn off sync
-       </message>
--      <message name="IDS_MANAGE_YOUR_GOOGLE_ACCOUNT" desc="Title for link to Google Account Page to manage account settings.">
--        Manage your Google Account
--      </message>
--      <message name="IDS_SYNC_CATEGORY_TITLE" desc="Title for the group of Sync-related entries in Settings. This group contains preferences for data tied to user's Google Account.">
--        Sync
--      </message>
--      <message name="IDS_SYNC_SWITCH_TITLE" desc="Title for the switch preference that enables sync. Displayed in 'Sync and Google services' screen.">
--        Sync your Vanadium data
--      </message>
-+      <!--<message name="IDS_MANAGE_YOUR_GOOGLE_ACCOUNT" desc="Title for link to Google Account Page to manage account settings.">-->
-+        <!--Manage your Google Account-->
-+      <!--</message>-->
-+      <!--<message name="IDS_SYNC_CATEGORY_TITLE" desc="Title for the group of Sync-related entries in Settings. This group contains preferences for data tied to user's Google Account.">-->
-+        <!--Sync-->
-+      <!--</message>-->
-+      <!--<message name="IDS_SYNC_SWITCH_TITLE" desc="Title for the switch preference that enables sync. Displayed in 'Sync and Google services' screen.">-->
-+        <!--Sync your Vanadium data-->
-+      <!--</message>-->
-       <message name="IDS_MANAGE_SYNC_TITLE" desc="Title for the preference row that opens the screen that allows configuring separate data types. Displayed in 'Sync and Google services' screen.">
-         Manage sync
-       </message>
 diff --git a/components/browser_ui/strings/android/browser_ui_strings.grd b/components/browser_ui/strings/android/browser_ui_strings.grd
 index 66257c44a716..b62a49a25320 100644
 --- a/components/browser_ui/strings/android/browser_ui_strings.grd
